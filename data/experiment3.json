@@ -1,0 +1,7 @@
+[
+  { "id": "site-001", "dis": "London Office", "site": "m:", "geoCity": "London" },
+  { "id": "equip-001", "dis": "AHU-01", "equip": "m:", "ahu": "m:", "siteRef": "site-001" },
+  { "id": "point-001", "dis": "AHU-01 Supply Air Temperature", "point": "m:", "temp": "m:", "sensor": "m:", "air": "m:", "unit": "°C", "equipRef": "equip-001" },
+  { "id": "point-002", "dis": "Orphan Return Air Temperature", "point": "m:", "temp": "m:", "sensor": "m:", "air": "m:", "unit": "°C" },
+  { "id": "point-003", "dis": "AHU-99 Supply Air Temperature", "point": "m:", "temp": "m:", "sensor": "m:", "air": "m:", "unit": "°C", "equipRef": "equip-999" }
+]

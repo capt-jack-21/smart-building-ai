@@ -1,0 +1,57 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AI models and training artefacts
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.onnx
+models/
+checkpoints/
+adapters/
+runs/
+
+# Local databases and runtime data
+*.db
+*.sqlite
+*.sqlite3
+data/raw/
+data/private/
+logs/
+
+# Generated outputs
+outputs/
+tmp/
+temp/

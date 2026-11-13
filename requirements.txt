@@ -1,0 +1,2 @@
+# Engine and scorer use only the standard library.
+# Add packages here as later stages need them (e.g. psycopg, pgvector).
